@@ -106,11 +106,9 @@ input. Output is a list of fibonacci numbers|
 | 6| char_shift | This function will shift teh characters by the number of positions that are passed to the function| 
 |7|swear_word_check | This function checks if google provided swear words are present in the paragraph passed.|
 | 8 |even_num_sum | This function sums up all even numbers in a list passed | 
-| 9 |biggest_char_in_string |This function finds the biggest character in a 
-string (printable ASCII characters) | 
+| 9 |biggest_char_in_string |This function finds the biggest character in a string (printable ASCII characters) | 
 | 10 |third_num_sum | This Function adds every 3rd number in a list |
-| 11 |generate_random_number_plates | This Function Function generates 15 random KADDAADDDD number plates, where KA is fixed, D stands for a digit, and A stands for Capital alphabets. 10<<DD<<99 & 
-1000<<DDDD<<9999 |
-| 11 |number_plate | This function considers KA can be changed to DL, and 1000/9999 ranges can be 
-provided and utilizes partial function such that 1000/9999 are hardcoded, 
-but KA can be provided |
+| 11 |generate_random_number_plates | This Function Function generates 15 random KADDAADDDD number plates, where KA is fixed, D stands for a digit, and A stands for Capital alphabets. 10<<DD<<99 & 1000<<DDDD<<9999 |
+| 11 |number_plate | This function considers KA can be changed to DL, and 1000/9999 ranges can be provided and utilizes partial function such that 1000/9999 are hardcoded, but KA can be provided |
+
+# Thank you
