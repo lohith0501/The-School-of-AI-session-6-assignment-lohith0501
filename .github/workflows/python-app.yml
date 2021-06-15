@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  autograding:
 
     runs-on: ubuntu-latest
 
