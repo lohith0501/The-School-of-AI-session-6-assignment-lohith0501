@@ -1,0 +1,4 @@
+pytest
+memory-profiler
+numpy
+collections
