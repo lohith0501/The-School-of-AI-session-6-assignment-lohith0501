@@ -1,15 +1,44 @@
-# Assignment 6 on First Class Functions
-- Submission by Lohith G N (EPAI batch 3)
+<p align="center"><img width=20.5% src="https://avatars.githubusercontent.com/u/67179924?s=280&v=4"></p>
 
-### Summary of assignment
+<p align="center">
+  An effort to create a state of art institution for AI study and research..
+  <br>
+  <a href="https://theschoolof.ai/#intro"><strong>Explore TSAI courses »</strong></a>
+ </p>
 
-Assignment 1
+##
+<h1 align="center">Assignment 6 on First Class Functions</h1>
+<h4 align="center">Submission by Lohith G N (EPAI batch 3) </h4>
+
+## Table of contents
+
+- [Status](#status)
+- [Summary of assignment](#summary-of-assignment)
+- [About the game](about-the-game)
+- [Algorithm](algorith)
+- [Functions in Part 1](functions-in-part-1)
+- [TestCases for Part 1](#testcases-for-part-1)
+- [Functions in Part 2](#functions-in-part-2)
+
+
+## Status
+
+ &nbsp; &nbsp;  &nbsp; ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)  &nbsp;  &nbsp; 
+ ![GitHub repo size](https://img.shields.io/github/repo-size/lohith0501/The-School-of-AI-session-6-assignment-lohith0501)  &nbsp;  &nbsp; 
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)  &nbsp;  &nbsp; 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/lohith0501/The-School-of-AI-session-6-assignment-lohith0501/Session6_assignment_workflow)&nbsp;  &nbsp; 
+![GitHub last commit](https://img.shields.io/github/last-commit/lohith0501/The-School-of-AI-session-7-assignment-lohith0501)  &nbsp;  &nbsp; 
+![GitHub Repo stars](https://img.shields.io/github/stars/lohith0501/The-School-of-AI-session-7-assignment-lohith0501?style=social)  &nbsp;  &nbsp; 
+
+## Summary of assignment
+
+### Assignment 1
 1. Write a single expression that includes lambda, zip, and map functions to select create 52 cards in a deck - 50 pts
 2. Write a normal function without using lambda, zip, and map function to create 52 cards in a deck - 50 pts
 3. Write a function that, when given 2 sets of 3 or 4 or 5 cards (1 game can only have 3 cards with each player or 4 cards or 5 cards per player) (1 deck of cards only), (2 players only), can identify who won the game of poker (Links to an external site.)! - 100 pts
 Basics (applicable to 2/3 above):
 
-Assignment 2
+### Assignment 2
 1. Write a function using only list filter lambda that can tell whether a number is a Fibonacci number or not. You can use a pre-calculated list/dict to store fab numbers till 10000 PTS:50
 2. Using list comprehension (and zip/lambda/etc if required) write expressions that: PTS: 100
 add 2 iterables a and b such that a is even and b is odd
@@ -25,7 +54,7 @@ adds every 3rd number in a list
 8. Write the above again from scratch where KA can be changed to DL, and 1000/9999 ranges can be provided. Now use a partial function such that 1000/9999 are hardcoded, but KA can be provided 
 
 
-### The rules of the games
+## About the game
 
 1. Players can get either of 3, 4 or 5 cards.
 2. 2 players play the game
@@ -34,7 +63,7 @@ adds every 3rd number in a list
    
 Based on the Rules I have deviced a very simple algorithm:
 
-### Algorithm
+## Algorithm
 
 1. First we generate a deck either by the list, map and lambda functions. 
 2. Then we shuffle the deck of card and randomly select either3, 4 or 5
@@ -75,7 +104,7 @@ Based on the Rules I have deviced a very simple algorithm:
 9. if both have same, then we check the max value, i.e. the second element, so here if the second element of player 2 is more than the first player then second player wins and vice versa
 10. if both the players have same secopnd value, then the game ends in a draw.
 
-### Functions in Part 1
+## Functions in Part 1
 
 |SR No. | Name | Functionality |
 |--- | --- | --- |
@@ -88,17 +117,16 @@ Based on the Rules I have deviced a very simple algorithm:
 |7|check_for_color | This function takes in list as input i.e. the suits of the hand and checks whether they are same or not|
 | 8 |check_for_number_sequence | This function takes in list an input (the hand of the player), then it checks whether it is in sequence or not | 
 
-### TestCases
+## TestCases for Part 1
 
 Here we have written a lot of testcases to check each functionality thoroughtly as out code shouldnt be breaking. 
 To test each combination for each type of hand I have written a test for each, so the test cases in format ```test_show_for_3_for_6_v_10``` represents for hand length of 3 for combination of player 1 having a hand of straight and player 2 having a hand of high card and we check the result. Rest of the test cases are self explanatory.
 
-### Functions in Part 2
+## Functions in Part 2
 
 |SR No. | Name | Functionality |
 |--- | --- | --- |
-|1 | generate_fibonacci_vocab | This function takes in int and generates fibonacci numbers based on the 
-input. Output is a list of fibonacci numbers|
+|1 | generate_fibonacci_vocab | This function takes in int and generates fibonacci numbers based on the input. Output is a list of fibonacci numbers|
 |2 |check_fibonacci_number| This function checks if the number passed is a fibonacci number or not|
 |3 |iter_1_even_iter_2_odd_addition | This function 2 iterable list and adds even number from first and odd number from second list|
 | 4| strip_vowel | This Function takes out all vowels from string passed and returns|
