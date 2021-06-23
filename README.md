@@ -3,7 +3,7 @@
 <p align="center">
   An effort to create a state of art institution for AI study and research..
   <br>
-  <a href="https://theschoolof.ai/#intro"><strong>Explore TSAI courses »</strong></a>
+  <a href="https://theschoolof.ai/"><strong>Explore TSAI courses »</strong></a>
  </p>
 
 ##
